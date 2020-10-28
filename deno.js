@@ -8,7 +8,7 @@ a()*/
 
 const food = Deno.args[0]
 // const mood = Deno.args[0]
-const parent = Deno.args[1]
+const parent = Deno.args[0]
 
 if (food === 'love' && parent === 'ryan') {
   console.log('🦕 ...Deno1 is born!')
